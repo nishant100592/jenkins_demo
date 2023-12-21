@@ -16,6 +16,27 @@
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
+  <build>
+    <finalName>jenkinsDemo</finalName>
+    <plugins>
+      <plugin>
+        <!-- Build an executable JAR test ABC-->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>lib/</classpathPrefix>
+              <mainClass>org.example.JenkinsDemo</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

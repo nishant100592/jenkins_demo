@@ -5,7 +5,7 @@ public class JenkinsDemo {
         return a+b;
     }
 
-    public int divison(int a, int b) {
+    public int division(int a, int b) {
         return b/a;
     }
 
@@ -24,6 +24,6 @@ public class JenkinsDemo {
         System.out.println("Sum is "+obj.sum(10, 20));
         System.out.println("Difference is "+obj.difference(20, 10));
         System.out.println("Product is "+obj.multiplication(10, 20));
-        System.out.println("Quotient is "+obj.divison(10, 20));
+        System.out.println("Quotient is "+obj.division(10, 20));
     }
 }

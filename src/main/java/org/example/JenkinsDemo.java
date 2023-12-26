@@ -19,7 +19,7 @@ public class JenkinsDemo {
 
     public static void main(String[] args) {
         System.out.println("Simple Java code");
-        System.out.println("Jenkins Pipeline Poll SCM change");
+        System.out.println("Changes with Docker for Github actions");
         JenkinsDemo obj = new JenkinsDemo();
         System.out.println("Sum is "+obj.sum(10, 20));
         System.out.println("Difference is "+obj.difference(20, 10));

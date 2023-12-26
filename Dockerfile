@@ -1,2 +1,2 @@
 FROM openjdk
-COPY target\jenkinsDemo.jar jenkinsDemo.jar
+COPY target/jenkinsDemo.jar jenkinsDemo.jar
